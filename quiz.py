@@ -16,17 +16,17 @@ for pyt in pytania:
     odp = input("")
     if(odpowiedzi[int(ord(odp.casefold()))-97].find(popOdp) != -1):
         punkty += 1
-        print("Prawidłowa odpowiedz!")
+        print("Prawidlowa odpowiedz!")
     else:
-        print("Zle! Prawidłowa odpowiedź to: " + popOdp)
+        print("Zle! Prawidlowa odpowiedz to: " + popOdp)
 
 pom = "Masz "+str(punkty)+"/9 punktów"
 
 if(punkty <= 2):
-    print(pom + "jestes slabiakiem.")
+    print(pom + " jestes slabiakiem.")
 elif(punkty <= 5):
     print(pom + ", nie ma tragedii.")
 elif(punkty <= 8):
-    print(pom + "bardzo dobrze znasz gre Wiedzmin 3.")
+    print(pom + " bardzo dobrze znasz gre Wiedzmin 3.")
 else:
-    print(pom + "wysmienicie znasz gre Wiedzmin 3.")
+    print(pom + " wysmienicie znasz gre Wiedzmin 3.")
