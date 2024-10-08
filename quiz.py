@@ -22,7 +22,7 @@ for pyt in pytania:
 
 pom = "Masz "+str(punkty)+"/9 punktów"
 
-if(punkty < 2):
+if(punkty <= 2):
     print(pom + "jestes slabiakiem.")
 elif(punkty <= 5):
     print(pom + ", nie ma tragedii.")
